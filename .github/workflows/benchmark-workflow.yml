@@ -1,5 +1,9 @@
 name: Lidar Benchmark
 on: [pull_request]
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   benchmark-job:
     runs-on: ubuntu-latest
